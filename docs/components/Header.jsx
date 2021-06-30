@@ -1,6 +1,5 @@
 
 var React = require('react')
-var Ad = require('./Ad.jsx')
 var TweetButton = require('./TweetButton.jsx')
 var createReactClass = require('create-react-class')
 
@@ -13,9 +12,6 @@ var Header = createReactClass({
           <div className='flex-auto px2 py3'>
             <h1 className='m0'>{this.props.title}</h1>
             <p className='h3 m0'>{this.props.description}</p>
-          </div>
-          <div className='px2 py3'>
-            <Ad />
           </div>
         </div>
         <TweetButton {...this.props} />

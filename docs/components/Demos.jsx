@@ -1,6 +1,5 @@
 
 var React = require('react')
-var Ad = require('./Ad.jsx')
 var createReactClass = require('create-react-class')
 
 var Demos = createReactClass({
@@ -39,9 +38,6 @@ var Demos = createReactClass({
             <ul className='list-reset'>
               {links.map(this.renderLink)}
             </ul>
-          </div>
-          <div className='px2 py4'>
-            <Ad />
           </div>
         </div>
       </div>

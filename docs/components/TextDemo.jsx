@@ -6,7 +6,6 @@ var colorable = require('../..')
 
 var ColorPreview = require('./ColorPreview.jsx')
 var ForegroundBackgroundForm = require('./ForegroundBackgroundForm.jsx')
-var Ad = require('./Ad.jsx')
 var createReactClass = require('create-react-class')
 
 module.exports = createReactClass({
@@ -86,11 +85,6 @@ module.exports = createReactClass({
             style={styles.preview}>
             <div className='px4'>
               <ColorPreview {...color} />
-            </div>
-            <div
-              style={styles.ad}
-              className='flex-none right-align px3'>
-              <Ad />
             </div>
           </div>
           <div className="px2 py3"
